@@ -14,3 +14,28 @@ npm i
 ```bash
 npm run dev
 ```
+```
+|-- CAP-frontend
+    |-- public
+        |-- vite.svg
+    |-- src
+        |-- assets
+        |-- components
+            |-- css
+            |-- forms
+            |-- home
+            |-- utils
+        |-- App.css
+        |-- App.jsx
+        |-- index.css
+        |-- main.jsx
+    |-- .eslintrc.cjs
+    |-- .gitignore
+    |-- index.html
+    |-- LICENSE
+    |-- package.lock.json
+    |-- package.json
+    |-- README.md
+    |-- vite.config.js
+
+```
