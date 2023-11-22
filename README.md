@@ -14,7 +14,8 @@ npm i
 ```bash
 npm run dev
 ```
-```
+# Folder Structure
+```bash
 |-- CAP-frontend
     |-- public
         |-- vite.svg
