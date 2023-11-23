@@ -55,5 +55,5 @@
     grid-template-columns: minmax(200px, 2fr) 20%;
     grid-template-rows: 1fr;
 
-    /* padding: 0 4%; */
+    /* padding: 0 20px; */
 }
