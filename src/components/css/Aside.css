@@ -1,3 +1,42 @@
 .home-aside {
     padding: 20px;
 }
+
+.home-aside .user-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-aside .user-info .greet {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    gap: 20px;
+}
+
+.home-aside .user-info .greet .username {
+    font-weight: 700;
+}
+
+.home-aside .user-info .user-avatar {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.home-aside .recents {
+    margin-top: 20px;
+}
+
+.home-aside .recents .activity-list {
+    margin-top: 20px;
+}
+
+.home-aside .recents .activity-list .activity {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
