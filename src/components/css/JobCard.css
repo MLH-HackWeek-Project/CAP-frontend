@@ -1,0 +1,43 @@
+.job-container {
+    width: 330px;
+    min-height: 200px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f4f4f4;
+    position: relative;
+}
+
+.job-container .job-info {
+    position: relative;
+}
+
+.job-container .job-info .job-header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.job-container .job-info .job-header .icon {
+    margin-top: 8px;
+}
+
+.job-container .job-info .job-company {
+    font-weight: 700;
+    font-size: medium;
+}
+
+.job-container .job-info .job-description {
+    margin-top: 10px;
+}
+
+.job-container .job-details {
+    width: 100%;
+    position: absolute;
+    margin-bottom: 20px;
+    bottom: 0;
+}
+
+.job-container .job-details .time {
+    font-size: 11px;
+    color: var(--primary-blue);
+}

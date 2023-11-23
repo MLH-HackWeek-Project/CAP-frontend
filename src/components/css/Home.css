@@ -7,12 +7,12 @@
 .navbar {
     width: 100%;
     height: 70px;
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    padding: 0 8%;
+    padding: 0 4%;
 }
 
 .navbar .logo {
@@ -44,11 +44,16 @@
     margin-left: 20px;
 }
 
-.navbar .ctas .small {
-    width: 20px;
-    height: 20px;
-}
-
 .navbar .ctas .user {
     padding-top: 3px;
+}
+
+.home-container-grid {
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: grid;
+    grid-template-columns: minmax(200px, 2fr) 20%;
+    grid-template-rows: 1fr;
+
+    /* padding: 0 4%; */
 }
