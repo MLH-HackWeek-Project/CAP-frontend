@@ -9,14 +9,14 @@ const Navbar = () => {
                     alt="Search icon"
                 />
                 <img
-                    className="icon user"
-                    src="src/assets/user.svg"
-                    alt="User icon"
-                />
-                <img
                     className="icon small"
                     src="src/assets/notification.svg"
                     alt="Notification icon"
+                />
+                <img
+                    className="icon user"
+                    src="src/assets/user.svg"
+                    alt="User icon"
                 />
                 <button className="btn">Apply</button>
             </div>
