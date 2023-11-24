@@ -20,8 +20,10 @@
 }
 
 .home-aside .user-info .user-avatar {
-    width: 90px;
-    height: 90px;
+    min-width: 90px;
+    min-height: 90px;
+    max-width: 40%;
+    max-height: 40%;
     border-radius: 50%;
     padding: 20px;
 }
@@ -39,4 +41,14 @@
     padding: 10px 20px;
     border-radius: 10px;
     margin-top: 10px;
+}
+
+.home-aside-show {
+    opacity: 1;
+}
+
+@media screen and (max-width: 568px) {
+    .home-aside {
+        display: none;
+    }
 }

@@ -23,7 +23,25 @@ const Content = () => {
     const [view, setView] = useState(true);
 
     const set_display_view = () => {
-        if (view) {
+        if (window.innerWidth > 568) {
+            if (view) {
+                return (
+                    <div className="jobs-grid">
+                        {jobs.map((job, index) => (
+                            <Card key={index} job={job} />
+                        ))}
+                    </div>
+                );
+            } else {
+                return (
+                    <div className="jobs-list">
+                        {jobs.map((job, index) => (
+                            <List key={index} job={job} />
+                        ))}
+                    </div>
+                );
+            }
+        } else {
             return (
                 <div className="jobs-grid">
                     {jobs.map((job, index) => (
@@ -31,24 +49,12 @@ const Content = () => {
                     ))}
                 </div>
             );
-        } else {
-            return (
-                <div className="jobs-list">
-                    {jobs.map((job, index) => (
-                        <List key={index} job={job} />
-                    ))}
-                </div>
-            );
         }
     };
 
-    const setViewGrid = () => {
-        !view ? setView(true) : "";
-    };
-
-    const setViewList = () => {
-        view ? setView(false) : "";
-    };
+    // Toggle view functions
+    const setViewGrid = () => (!view ? setView(true) : "");
+    const setViewList = () => (view ? setView(false) : "");
 
     return (
         <div className="home-content">

@@ -57,3 +57,18 @@
 
     /* padding: 0 20px; */
 }
+
+@media screen and (max-width: 568px) {
+    .home-container-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+
+    .navbar .logo {
+        font-size: 24px;
+    }
+
+    .navbar .ctas .btn {
+        display: none;
+    }
+}

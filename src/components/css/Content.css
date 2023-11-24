@@ -38,3 +38,10 @@
 .home-content .jobs-list {
     margin-top: 20px;
 }
+
+@media screen and (max-width: 568px) {
+    .home-content {
+        margin-left: 0;
+        margin: 0 10px;
+    }
+}
