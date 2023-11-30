@@ -36,3 +36,8 @@
 .no-content {
     font-weight: 400;
 }
+
+.re-direct {
+    text-decoration: none;
+    color: var(--primary-blue);
+}
